@@ -91,6 +91,7 @@
         "../_common/virtualbox.sh",
         "../_common/vmware.sh",
         "../_common/parallels.sh",
+        "scripts/alkivi.sh",
         "scripts/salt-{{user `salt_version`}}-{{user `salt_python_version`}}.sh",
         "scripts/cleanup.sh",
         "../_common/minimize.sh"
