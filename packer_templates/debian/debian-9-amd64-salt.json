@@ -27,7 +27,6 @@
       "headless": "{{ user `headless` }}",
       "http_directory": "http",
       "iso_checksum": "{{user `iso_checksum`}}",
-      "iso_checksum_type": "{{user `iso_checksum_type`}}",
       "iso_url": "{{user `mirror`}}/{{user `mirror_directory`}}/{{user `iso_name`}}",
       "output_directory": "../../builds/packer-debian-9-salt-{{user `salt_version`}}-{{user `salt_python_version`}}-virtualbox",
       "shutdown_command": "echo 'vagrant' | sudo -S /sbin/shutdown -hP now",
